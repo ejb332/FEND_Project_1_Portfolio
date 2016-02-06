@@ -1,0 +1,81 @@
+body, html {
+	width: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+img, embed,
+object, video {
+	max-width: 100%;
+}
+
+hr {
+	display: block;
+	border: 2px solid;
+	color: #BCBBBB;
+}
+
+ul {
+	list-style: none;
+	width: 100%;
+}
+
+.text-muted {
+	color: #BCBBBB;
+	font-weight: bold;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.title-sub {
+	font-weight: bold;
+}
+
+.nav > li {
+	display: inline;
+}
+
+.center-block {
+	text-align: center;
+}
+
+@media screen and (max-width: 599px) {
+	.title-logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.title-super {
+		text-align: center;
+	}
+
+	.title-sub {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.title-logo {
+		float: left;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.text-muted {
+		text-align: center;
+	}
+}
