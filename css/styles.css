@@ -1,21 +1,33 @@
-body, html {
+html {
 	width: 100%;
 }
 
 body {
+	width: 100%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 }
 
-img, embed,
-object, video {
+img {
 	max-width: 100%;
+}
+
+embed {
+	max-width: 100%;
+}
+
+object {
+	max-width: 100%;
+}
+
+video {
+	min-width: 100%;
 }
 
 hr {
 	display: block;
 	border: 2px solid;
-	color: #BCBBBB;
+	color: #bcbbbb;
 }
 
 ul {
@@ -24,7 +36,7 @@ ul {
 }
 
 .text-muted {
-	color: #BCBBBB;
+	color: #bcbbbb;
 	font-weight: bold;
 }
 
